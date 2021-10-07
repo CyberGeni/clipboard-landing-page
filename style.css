@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+/* universal */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+body {
+    background-image: url(images/bg-header-mobile.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+p {
+    color: hsl(201, 11%, 66%);
+    text-align: center;
+    line-height: 30px;
+}
+button {
+    display: flex;
+    padding: 16px;
+    width: 70%;
+    max-width: 300px;
+    margin: auto;
+    margin-top: 15px;
+    justify-content: center;
+    border-radius: 24px;
+    border: none;
+    color: white;
+    font-weight: 600;
+}
+button:nth-child(1) {
+    background-color: hsl(171, 66%, 44%);
+}
+button:nth-child(2) {
+    background-color: hsl(233, 100%, 69%);
+    margin-bottom: 50px;
+}
+h1 {
+    color: hsl(210, 10%, 33%);
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 15px;
+}
+h2 {
+    color: hsl(210, 10%, 33%);
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 8px;
+    margin-top: 25px;
+}
+/* hero */
+.hero {
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+}
+.hero-image {
+    width: 150px;
+    margin: auto;
+}
+/* sections */
+section {
+    margin: auto;
+    width: 85%;
+}
+.devices {
+    width: 85%;
+    max-width: 400px;
+    display: flex;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
